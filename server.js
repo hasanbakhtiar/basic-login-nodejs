@@ -33,7 +33,7 @@ app.post('/users/login', async (req,res)=>{
            res.send('Not Allowed')
        }
     }catch{
-        res.status(500).send()
+        res.status(500).send();
     }
 })
 

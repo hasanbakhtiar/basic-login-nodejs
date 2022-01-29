@@ -1,0 +1,27 @@
+{
+  "name": "loginsystemnodejs",
+  "version": "1.0.0",
+  "description": "this repo for loginSystemNodeJS",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasanBakhtiar/loginSystemNodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HasanBakhtiar/loginSystemNodeJS/issues"
+  },
+  "homepage": "https://github.com/HasanBakhtiar/loginSystemNodeJS#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
